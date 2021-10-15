@@ -7,3 +7,4 @@ class ParsSerializer(serializers.ModelSerializer):
     class Meta:
         model = Pars
         fields = ('id', 'title', 'usd_price', 'city', 'description')
+
